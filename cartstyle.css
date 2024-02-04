@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    color: blueviolet;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background: url(https://images.creativemarket.com/0.1.0/ps/5113625/1820/623/m1/fpnw/wm1/nsl5ws0dak2vfvklerldcsyxyvlrodiw5hr2jpvjjamp9zuuf82fr08riqg2rvho-.jpg?1538043854&s=befe1de10915e41f0ffaffb6e606a7ad);
+    background-attachment: fixed;
+}
+
+.heading{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+main{
+    height: 94vh;
+    padding: 2vh 4vw;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table{
+    width: 60vw;
+}
+td, th{
+    padding: 0.5vh 1vw;
+    text-align: center;
+}
+td button{
+    color: blueviolet;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+#change-qnt{
+    padding: 0;
+    font-size: 21px;
+    text-align: center;
+    width: 2vw;
+}
+.total{
+    font-size: 20px;
+    font-weight: bold;
+}

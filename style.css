@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    z-index: 2;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:auto;
+}
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    height: fit-content;
+    background: url(https://images.creativemarket.com/0.1.0/ps/5113625/1820/623/m1/fpnw/wm1/nsl5ws0dak2vfvklerldcsyxyvlrodiw5hr2jpvjjamp9zuuf82fr08riqg2rvho-.jpg?1538043854&s=befe1de10915e41f0ffaffb6e606a7ad);
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+
+.container1{
+    display: flex;  
+    text-align: center; 
+}
+
+nav li{
+    list-style: none;
+    margin: 5px 7vw 5px 7vw;
+}
+
+.item a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.item-count{
+    position: absolute;
+    top: -25%;
+    right:-25%;
+    background-color: red;
+    padding: 5%;
+    border-radius: 50%;
+    font-size: smaller;
+}
+
+#Home{
+    display: flex;
+    margin:17vh 1vw 0px 4vw;
+
+}
+
+#img-str{
+    height: 60vh;
+    width: 45vw;
+    border-radius: 15px;
+}
+
+#home2{
+    padding: 02%;
+}
+
+#home2 p{
+    font-size: 83px;
+    margin-top: 13vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    margin: 10px 0px 25px 0px ;
+}
+
+.food-item{
+    height: fit-content;
+    width: 20vw;
+    border: 0px solid black;
+    border-radius: 6px;
+    margin: 15px;
+    transition-duration: .5s;
+
+}
+
+.food-item:hover{
+    transform: scale(1.02);
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.main-img{
+    height: 200px;
+    width: 200px;
+    margin: 15px 20px 15px 50px;
+    border-radius: 7px;
+}
+
+.price{
+    text-align: center;
+    font-size: 20px;
+}
+
+.item-name{
+    text-align: center;
+    font-size: 20px;
+}
+
+.addtocart{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button{
+    border-radius: 12px;
+    width: 10vw;
+    height: 25px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#Menu{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+#Menu p{
+    margin: 0;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.Search{
+    border-radius: 25px;
+    width: 15vw;
+    height: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+#About{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.a-us{
+    width: 22vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 1vw 5px 5vw;
+} 
+.c-ser{
+    width: 22vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 1vw 5px 1vw;
+} 
+.f-us{
+    width: 22vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 1vw 5px 1vw;
+} 
+.c-us{
+    width: 22vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 1vw 5px 1vw;
+}
+
+.-a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.tit{
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.contact-info{
+    font-size: 20px;
+    color: black;
+    margin: 5px 0px 5px 0px;
+}
+
+.lor{
+    color: black;
+}
+
+.pre-a{
+    margin: 5px 0px 5px 0px;
+}
